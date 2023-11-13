@@ -1,0 +1,66 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+}
+
+.logo,
+.nav-items,
+.search-bar,
+.account-options {
+  margin: 0 10px;
+}
+
+.nav-items div {
+  display: inline-block;
+  margin-right: 80px;
+  font-size: 2rem;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 250px; /* Adjust width as needed */
+  height: 30px;
+  border-radius: 100px;
+}
+
+.search-bar::before {
+  content: '\1F50E'; /* Unicode magnifying glass icon */
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.search-bar input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 90px; /* Adjust the width based on your image size */
+  height: auto;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.logo-text {
+  font-size: 38px;
+  font-weight: bold;
+}

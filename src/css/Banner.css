@@ -1,0 +1,32 @@
+/* Banner.css */
+
+.banner {
+    position: relative;
+    text-align: center;
+  }
+  
+  .banner-image {
+    width: 100%; /* Make the image fill the container */
+    height: 1000px;
+  }
+  
+  .shop-now-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 200px;
+height: 70px;
+  }
+  
+  .shop-now-button:hover {
+    background-color: darkred;
+  }
+  
